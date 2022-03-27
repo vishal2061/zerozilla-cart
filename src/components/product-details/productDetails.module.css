@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  margin: 30px;
+  padding: 15px;
+}
+
+.rating_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgba(160, 121, 212, 0.678) !important;
+  border: none !important;
+}
+
+.btn:hover {
+  background-color: rgba(131, 67, 216, 0.678) !important;
+}
+
+.badge {
+  background-color: #8343d8ad;
+}
